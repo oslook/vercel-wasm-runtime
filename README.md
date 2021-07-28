@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 This project is aimed to demonstrate how to implement a Serverless Functions working with Webassembly in Vercel. The [main branch](https://github.com/second-state/vercel-wasm-runtime/tree/main) showcases an image processing function, and the [tensorflow branch](https://github.com/second-state/vercel-wasm-runtime/tree/tensorflow) showcases an AI inference function. Both written in simple Rust and runs in the [WasmEdge runtime](https://github.com/WasmEdge/WasmEdge) for WebAssembly.
 
-## Overview
+## Overview.
 
 The Serverless Functions endpoint is located at `api/hello.js` to meet the requirement of Vercel, but not to the Next.js. So if you want to develop on you local machine, you should put it into `pages/api/` and make some change.
 
